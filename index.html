@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <title>MangaPirate</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar fixed-top bg-black border-bottom border-body  navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/images/logo.png" alt="Logo" class="d-inline-block align-text-center logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carrosel">Carrosel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cards">Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Footer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article id="article">
+            <div id="root-article">
+                
+                <div id="carrosel">
+                    <div id="carouselExampleInterval" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="./assets/images/carrosel/kaiji-manga-destacada.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assets/images/carrosel/kyoudai_brothers.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assets/images/carrosel/real.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <h4>Principais Mangas</h4>
+                <div class="manga-list" id="cards">
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal0">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Hikimori Nizuma</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/nizuma.jpg" alt="Manga Image">
+                        <div class="modal fade" id="modal0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Hikimori Nizuma</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/nizuma.jpg" class="img-fluid" alt="nizuma">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Kaiji</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/kaiji.jpg" alt="Manga Image">
+                        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Kaiji</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/kaiji.jpg" class="img-fluid" alt="Kaiji">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Strongest Kurosawa</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/kurosawa.jpg" alt="Manga Image">
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel2">Strongest Kurosawa</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/kurosawa.jpg" class="img-fluid"
+                                            alt="Strongest Kurosawa">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal3">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Real</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/real.jpg" alt="Manga Image">
+                        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel3">Real</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/real.jpg" class="img-fluid" alt="Real">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal4">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Space Dandy</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/space_dandy.jpg" alt="Manga Image">
+                        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel4">Space Dandy</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/space_dandy.jpg" class="img-fluid"
+                                            alt="Space Dandy">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manga-card" data-bs-toggle="modal" data-bs-target="#modal5">
+                        <div class="manga-info">
+                            <h3 class="manga-title">Space Brothers</h3>
+                            <p class="manga-chapter">Capitulos: 100</p>
+                            <p class="manga-autor">Autor: Lorem imposum</p>
+                            <p class="manga-rating">Rating: 4/5</p>
+                        </div>
+                        <img class="manga-image" src="./assets/images/mangas/kyoudai_brothers.png" alt="Manga Image">
+                        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel5"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel5">Space Brothers</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./assets/images/mangas/kyoudai_brothers.png" class="img-fluid"
+                                            alt="Space Brothers">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum unde
+                                            corrupti ipsum perferendis. Doloribus, aliquam quo provident, voluptates
+                                            unde eveniet inventore consequuntur beatae itaque iusto fugiat dignissimos,
+                                            perferendis ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="table" class="table-responsive">
+                    <h4>Top 10 Autores</h4>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Número de views</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Eiichiro Oda</td>
+                                <td>1,234,567</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Masashi Kishimoto</td>
+                                <td>987,654</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Hajime Isayama</td>
+                                <td>876,543</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Akira Toriyama</td>
+                                <td>765,432</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Yoshihiro Togashi</td>
+                                <td>654,321</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Hiromu Arakawa</td>
+                                <td>543,210</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Tite Kubo</td>
+                                <td>432,109</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Rumiko Takahashi</td>
+                                <td>321,098</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Naoko Takeuchi</td>
+                                <td>210,987</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Kentaro Miura</td>
+                                <td>109,876</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </article>
+    </main>
+    <footer id="footer">
+        <div class="div-footer-info">
+            <img class="footer-image" src="./assets/images/logo.png" alt="buggy the clown">
+            <div class="div-footer-social-media">
+                <h3>Redes sociais</h3>
+                <div class="social-media-div">
+                    <img class="logo-social-media" src="./assets/images/instagram.png" alt="logo">
+                    <p>@manga_pirate</p>
+                </div>
+                <div class="social-media-div">
+                    <img class="logo-social-media" src="./assets/images/x.png" alt="logo">
+                    <p>@manga_pirate</p>
+                </div>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <div class="social-media-div">
+                    <img class="logo-social-media" src="./assets/images/email.png" alt="logo">
+                    <p>contato@manga_pirate.com</p>
+                </div>
+                <div class="social-media-div">
+                    <img class="logo-social-media" src="./assets/images/zap.png" alt="logo">
+                    <p>+55(53)999999999</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
