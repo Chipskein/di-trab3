@@ -1,5 +1,14 @@
 # Trabalho CSS 2 - Performance 2024
 
+### TODO
+  - [ ] Terminar Animações
+  - [ ] Testar @media
+  - [ ] Testar Performance
+  - [ ] Testar Metatags
+  - [ ] Escrever Mais coisa
+  
+### Descrição
+
 Caros alunos,
 
 O trabalho CSS 2 consiste em fazer uma landing page para o site do Trabalho 1. Manter cores, nomes, logotipo, estilo, fontes e adicionar os conteúdos abaixo mais as páginas do Trabalho CSS 1 que forem necessárias para completar 3 seções.
