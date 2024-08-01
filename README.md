@@ -4,7 +4,7 @@
   - [ ] Terminar Animações
   - [ ] Testar @media
   - [ ] Testar Performance
-  - [ ] Testar Metatags
+  - [x] Testar Metatags
   - [ ] Escrever Mais coisa
   
 ### Descrição
