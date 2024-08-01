@@ -17,7 +17,17 @@ header{
 #table{
     margin-top: 5%;
 }
-
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    row-gap: 10px;
+}
+.img-modal{
+    width: 300px;
+    height: 400px;
+}
 .logo{
     width: 120px;
 }
