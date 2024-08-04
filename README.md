@@ -1,10 +1,4 @@
 # Trabalho CSS 2 - Performance 2024
-
-### TODO
-  - [X] Terminar Animações
-  - [X] Testar @media
-  - [X] Testar Performance
-  - [x] Testar Metatags
   
 ### Descrição
 
