@@ -218,11 +218,16 @@ footer{
     white-space: normal;
     word-break: break-all;
 }
-
+.nav-link{
+    color:white !important
+}
 @media only screen and (max-width: 600px) {
     .footer-image{
         display: none;
     }    
+    #header{
+        margin-bottom: 30%;
+    }
     .main-title{
         display: none;
     }
@@ -245,6 +250,9 @@ footer{
     .top-manga-div{
         display: flex;
         justify-content: center;
+    }
+    #header{
+        margin-bottom: 30%;
     }
     .top-manga-div-card{
         margin: 20px;
