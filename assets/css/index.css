@@ -153,6 +153,10 @@ footer{
     box-shadow: 0px 5px 10px 15px rgba(255, 0, 0, 0.439);
     animation: tada 1s; /* Adiciona a animação */
 }
+.modal-open .manga-card:hover {
+    animation: none;
+    transition: none;
+}
 .manga-info{
     float:left;
     position: absolute;
