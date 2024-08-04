@@ -111,6 +111,14 @@ footer{
     width: 75%
 
 }
+#sobre-nos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
 .title-list{
     display: flex;
     justify-content: center;
