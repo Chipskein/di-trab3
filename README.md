@@ -2,10 +2,9 @@
 
 ### TODO
   - [ ] Terminar Animações
-  - [ ] Testar @media
-  - [ ] Testar Performance
+  - [X] Testar @media
+  - [X] Testar Performance
   - [x] Testar Metatags
-  - [ ] Escrever Mais coisa
   
 ### Descrição
 
